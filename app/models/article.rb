@@ -9,7 +9,7 @@ class Article
 
   def sniff
     doc = Nokogiri::HTML open @url
-    doc.css SNIFF_TARGET
+    doc = doc.css SNIFF_TARGET
     doc.text
   end
 end
