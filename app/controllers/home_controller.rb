@@ -24,5 +24,6 @@ class HomeController < ApplicationController
   def single_sourced sentences
     # system %Q{python -c $'from news_checker import extract_sentences\nextract_sentences("#{sentences}")'}
     [ true, false ][rand 2]
+    true
   end
 end
