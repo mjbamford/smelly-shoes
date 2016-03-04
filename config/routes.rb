@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   # Serve websocket cable requests in-process
   # mount ActionCable.server => '/cable'
-  get '/sniff' => 'home#sniff'
+  get '/sniff/article/:url' => 'home#article', as: 'article_sniffer'
+  get '/sniff' => 'home#articles'
   root to: 'home#index'
 end
