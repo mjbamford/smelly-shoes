@@ -1,0 +1,39 @@
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <!-- <h3 class="masthead&#45;brand">Cover</h3> -->
+          <nav>
+            <ul class="nav masthead-nav">
+              <!-- <li class="active"><a href="#">Home</a></li> -->
+              <!-- <li><a href="#">Features</a></li> -->
+              <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="inner cover">
+        <h1 class="cover-heading">The Smelly Stories Sniffer</h1>
+        <p class="lead">Find Single Sourced Stories for Further Ridicule</p>
+        <p class="lead">
+          <!-- <a href="#" class="btn btn&#45;lg btn&#45;default">Learn more</a> -->
+        </p>
+        <p>
+          <%= form_tag '/sniff', method: 'get' do %>
+            <%= label_tag :q, 'Site to Sniff' %>
+            <%= text_field_tag :q %>
+            <%= submit_tag "Sniff" %>
+          <% end %>
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>SBS News Walkery Hackthon</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

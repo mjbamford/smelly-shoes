@@ -1,0 +1,36 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.site-wrapper-inner {
+  background: url('/images/smelly-shoes.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// .site-wrapper-inner:before {
+//   content: ' '; position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   bottom: 0;
+//   background-color: rgba(0,0,0,.5);
+// }
+
+// .cover-container {
+//   // background-color: rgba(0,0,0,1);
+// }
+
+.inner.cover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1, .h1 {
+  font-size: 96px;
+}
+
+input {
+  color: black;
+}
