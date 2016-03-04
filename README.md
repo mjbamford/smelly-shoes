@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+The files that the Python NLTK relies on are large Java binary files.
+You'll need to download those yourself.
+Extract them to the lib/python_sniffer/stanford_NLP lib.
+Here's a great guide on doing that on Linux, Windows and Mac - https://stackoverflow.com/questions/13883277/stanford-parser-and-nltk/34112695#comment58610524_34112695
