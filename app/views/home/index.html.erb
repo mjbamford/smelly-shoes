@@ -22,8 +22,8 @@
         </p>
         <p>
           <%= form_tag '/sniff', method: 'get' do %>
-            <%= label_tag :q, 'Site to Sniff' %>
-            <%= text_field_tag :q %>
+            <%= label_tag :url, 'Site to Sniff' %>
+            <%= text_field_tag :url %>
             <%= submit_tag "Sniff" %>
           <% end %>
         </p>
